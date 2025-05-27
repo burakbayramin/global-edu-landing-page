@@ -14,7 +14,7 @@ const ProcessOverview = () => {
     <section className="w-full bg-off-white py-20">
       <div className="container mx-auto px-6">
         <h2 className="font-geometric font-bold text-3xl md:text-4xl text-charcoal text-center mb-16">
-          Our Process
+          Sürecimiz
         </h2>
         <div className="max-w-5xl mx-auto">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-12 md:space-y-0 relative">

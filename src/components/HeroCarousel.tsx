@@ -4,19 +4,19 @@ import { Button } from "@/components/ui/button";
 
 const slides = [
   {
-    headline: "Unlock Your Global Education Journey",
-    subheadline: "Expert guidance to study abroad—simplified.",
-    cta: "Get a Free Consultation"
+    headline: "Küresel Eğitim Yolculuğunuzu Başlatın",
+    subheadline: "Yurtdışında eğitim için uzman rehberlik—basitleştirilmiş.",
+    cta: "Ücretsiz Danışmanlık Alın"
   },
   {
-    headline: "Find Your Perfect University Match",
-    subheadline: "Curated options tailored to your goals.",
-    cta: "Explore Programs"
+    headline: "Mükemmel Üniversite Eşleşmenizi Bulun",
+    subheadline: "Hedeflerinize göre özelleştirilmiş seçenekler.",
+    cta: "Programları Keşfedin"
   },
   {
-    headline: "Maximize Your Scholarship Success",
-    subheadline: "Insider tips for funding your dreams.",
-    cta: "Check Eligibility"
+    headline: "Burs Başarınızı Maksimize Edin",
+    subheadline: "Hayallerinizi finanse etmek için içeriden ipuçları.",
+    cta: "Uygunluğu Kontrol Edin"
   }
 ];
 

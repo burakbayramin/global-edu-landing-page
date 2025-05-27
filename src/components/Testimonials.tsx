@@ -4,16 +4,16 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "Noventra made my dream of studying at Oxford a reality. Their personalized guidance was invaluable.",
-    author: "Sarah Chen, Oxford University"
+    quote: "Noventra, Bocconi Üniversitesi'nde okuma hayalimi gerçeğe dönüştürdü. Kişiselleştirilmiş rehberlikleri paha biçilemezdi.",
+    author: "Zeynep Yılmaz, Bocconi Üniversitesi"
   },
   {
-    quote: "The scholarship advice helped me secure full funding for my Master's at MIT. Couldn't have done it without them.",
-    author: "Raj Patel, MIT"
+    quote: "Burs danışmanlıkları sayesinde Münih Teknik Üniversitesi'ndeki yüksek lisansım için tam finansman sağladım. Onlar olmadan başaramazdım.",
+    author: "Ahmet Cengiz, Münih Teknik Üniversitesi"
   },
   {
-    quote: "From application to visa, every step was seamless. Professional service that truly delivers results.",
-    author: "Emma Rodriguez, Cambridge University"
+    quote: "Başvurudan vizeye kadar her adım sorunsuzdu. Gerçekten sonuç veren profesyonel bir hizmet.",
+    author: "Ayşe Demir, ETH Zürih Üniversitesi"
   }
 ];
 
@@ -38,9 +38,8 @@ const Testimonials = () => {
 
   return (
     <section className="w-full bg-off-white py-16">
-      <div className="container mx-auto px-6">
-        <h2 className="font-geometric font-medium text-2xl text-charcoal text-center mb-12">
-          Student Success Stories
+      <div className="container mx-auto px-6">        <h2 className="font-geometric font-medium text-2xl text-charcoal text-center mb-12">
+          Öğrenci Başarı Hikayeleri
         </h2>
         
         <div className="max-w-3xl mx-auto relative">

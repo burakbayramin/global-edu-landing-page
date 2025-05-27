@@ -5,23 +5,23 @@ import { User, FileText, MapPin, Check } from 'lucide-react';
 const services = [
   {
     icon: User,
-    title: "University Selection",
-    description: "Find the perfect match for your academic goals and career aspirations."
+    title: "Üniversite Seçimi",
+    description: "Akademik hedefleriniz ve kariyer planlarınız için mükemmel eşleşmeyi bulun."
   },
   {
     icon: FileText,
-    title: "Application Support",
-    description: "Complete guidance through every step of your application process."
+    title: "Başvuru Desteği",
+    description: "Başvuru sürecinizin her adımında eksiksiz rehberlik."
   },
   {
     icon: Check,
-    title: "Scholarship Advising",
-    description: "Maximize funding opportunities with expert scholarship guidance."
+    title: "Burs Danışmanlığı",
+    description: "Uzman burs rehberliği ile finansal fırsatlardan maksimum düzeyde yararlanın."
   },
   {
     icon: MapPin,
-    title: "Visa & Immigration",
-    description: "Navigate visa requirements with confidence and ease."
+    title: "Vize ve Göçmenlik",
+    description: "Vize gerekliliklerini güven ve kolaylıkla yönetin."
   }
 ];
 

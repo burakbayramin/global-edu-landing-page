@@ -19,7 +19,7 @@ const Footer = () => {
             <div className="space-y-2 text-mid-grey font-geometric font-light">
               <div className="flex items-center justify-center space-x-2">
                 <MapPin size={16} strokeWidth={1.5} />
-                <span className="text-sm">123 Education Street, Global City, GC 12345</span>
+                <span className="text-sm">Kocaeli, İzmit</span>
               </div>
               <div className="flex items-center justify-center space-x-2">
                 <Mail size={16} strokeWidth={1.5} />
@@ -51,7 +51,7 @@ const Footer = () => {
         
         <div className="mt-8 pt-8 border-t border-mid-grey/20 text-center">
           <p className="font-geometric font-light text-sm text-mid-grey">
-            © 2024 Noventra. All rights reserved.
+            © 2025 Noventra. Tüm hakları saklıdır.
           </p>
         </div>
       </div>
