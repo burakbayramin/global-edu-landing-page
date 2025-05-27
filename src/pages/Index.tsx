@@ -1,5 +1,6 @@
 
 import React from 'react';
+import Header from '@/components/Header';
 import HeroCarousel from '@/components/HeroCarousel';
 import CoreServices from '@/components/CoreServices';
 import WhyChooseUs from '@/components/WhyChooseUs';
@@ -11,6 +12,8 @@ import Footer from '@/components/Footer';
 const Index = () => {
   return (
     <div className="min-h-screen bg-off-white font-geometric">
+      <Header />
+      
       <HeroCarousel />
       
       {/* Subtle divider */}

@@ -32,26 +32,26 @@ const HeroCarousel = () => {
   }, []);
 
   return (
-    <section className="w-full bg-off-white py-24 md:py-32 relative overflow-hidden">
+    <section className="w-full bg-off-white py-16 md:py-24 relative overflow-hidden">
       <div className="container mx-auto px-6 text-center">
-        <div className="relative h-48 md:h-56">
+        <div className="relative h-64 md:h-72 flex items-center justify-center">
           {slides.map((slide, index) => (
             <div
               key={index}
-              className={`absolute inset-0 transition-opacity duration-1000 ${
+              className={`absolute inset-0 transition-opacity duration-1000 ease-in-out flex flex-col items-center justify-center ${
                 index === currentSlide ? 'opacity-100' : 'opacity-0'
               }`}
             >
-              <h1 className="font-geometric font-bold text-4xl md:text-6xl lg:text-7xl text-charcoal mb-6 leading-tight">
+              <h2 className="font-geometric font-bold text-3xl md:text-5xl lg:text-6xl text-charcoal mb-6 leading-tight max-w-4xl">
                 {slide.headline}
-              </h1>
-              <p className="font-geometric font-light text-xl md:text-2xl text-mid-grey mb-8 max-w-2xl mx-auto">
+              </h2>
+              <p className="font-geometric font-light text-lg md:text-xl text-mid-grey mb-8 max-w-2xl mx-auto">
                 {slide.subheadline}
               </p>
               <Button 
                 variant="outline" 
                 size="lg"
-                className="font-geometric font-medium border-2 border-charcoal text-charcoal bg-transparent hover:bg-charcoal hover:text-off-white transition-all duration-300 px-8 py-3 text-lg"
+                className="font-geometric font-medium border-2 border-charcoal text-charcoal bg-transparent hover:bg-charcoal hover:text-off-white transition-all duration-300 px-8 py-3 text-base md:text-lg"
               >
                 {slide.cta}
               </Button>
@@ -60,13 +60,15 @@ const HeroCarousel = () => {
         </div>
         
         {/* Carousel indicators */}
-        <div className="flex justify-center space-x-3 mt-12">
+        <div className="flex justify-center space-x-3 mt-8">
           {slides.map((_, index) => (
             <button
               key={index}
               onClick={() => setCurrentSlide(index)}
-              className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                index === currentSlide ? 'bg-charcoal' : 'bg-mid-grey'
+              className={`w-3 h-3 rounded-full transition-all duration-300 border-2 ${
+                index === currentSlide 
+                  ? 'bg-charcoal border-charcoal' 
+                  : 'bg-transparent border-mid-grey hover:border-charcoal'
               }`}
             />
           ))}
