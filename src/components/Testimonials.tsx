@@ -33,7 +33,7 @@ const Testimonials = () => {
         <h2 className="font-geometric font-bold text-3xl md:text-4xl text-charcoal text-center mb-16">
           Student Success Stories
         </h2>
-        <div className="max-w-4xl mx-auto relative h-32">
+        <div className="max-w-4xl mx-auto relative h-40 md:h-32">
           {testimonials.map((testimonial, index) => (
             <div
               key={index}
@@ -55,14 +55,17 @@ const Testimonials = () => {
         </div>
         
         {/* Testimonial indicators */}
-        <div className="flex justify-center space-x-3 mt-12">
+        <div className="flex justify-center space-x-4 mt-12">
           {testimonials.map((_, index) => (
             <button
               key={index}
               onClick={() => setCurrentTestimonial(index)}
-              className={`w-2 h-2 rounded-full transition-all duration-300 ${
-                index === currentTestimonial ? 'bg-charcoal' : 'bg-mid-grey'
+              className={`w-3 h-3 rounded-full transition-all duration-300 border-2 ${
+                index === currentTestimonial 
+                  ? 'bg-charcoal border-charcoal' 
+                  : 'bg-transparent border-mid-grey hover:border-charcoal'
               }`}
+              aria-label={`Go to testimonial ${index + 1}`}
             />
           ))}
         </div>
