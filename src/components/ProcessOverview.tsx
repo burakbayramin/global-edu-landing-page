@@ -3,10 +3,10 @@ import React from 'react';
 import { FileText, Folder, User, MapPin } from 'lucide-react';
 
 const steps = [
-  { icon: FileText, label: "Application" },
-  { icon: Folder, label: "Documentation" },
-  { icon: User, label: "Interview" },
-  { icon: MapPin, label: "Visa" }
+  { icon: FileText, label: "Başvuru" },
+  { icon: Folder, label: "Belgelendirme" },
+  { icon: User, label: "Mülakat" },
+  { icon: MapPin, label: "Vize" }
 ];
 
 const ProcessOverview = () => {
